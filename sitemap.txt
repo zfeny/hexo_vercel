@@ -1,2 +1,6 @@
+http://www.zfeny.bio/gallery/index.html
+http://www.zfeny.bio/link/index.html
+http://www.zfeny.bio/categories/index.html
+http://www.zfeny.bio/tags/index.html
 http://www.zfeny.bio/2023/07/04/hello-world/
 http://www.zfeny.bio/
