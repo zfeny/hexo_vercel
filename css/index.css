@@ -444,6 +444,13 @@ canvas:not(#ribbon-canvas),
   -ms-animation: scroll-down-effect 1.5s infinite;
   animation: scroll-down-effect 1.5s infinite;
 }
+.avatar-img {
+  -webkit-animation: avatar_turn_around 2s linear infinite;
+  -moz-animation: avatar_turn_around 2s linear infinite;
+  -o-animation: avatar_turn_around 2s linear infinite;
+  -ms-animation: avatar_turn_around 2s linear infinite;
+  animation: avatar_turn_around 2s linear infinite;
+}
 .reward-main {
   -webkit-animation: donate_effcet 0.3s 0.1s ease both;
   -moz-animation: donate_effcet 0.3s 0.1s ease both;
@@ -1434,7 +1441,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: https://zfeny123-my.sharepoint.com/personal/pic_zfeny_top/Documents/pics/%E5%8E%9A%E6%B6%82%20JK%20%E6%B5%B7%E8%BE%B9.jpg;
+  background: https://alist.zfeny.top/d/site/pics/background.jpg;
   background-attachment: local;
   background-position: center;
   background-size: cover;
