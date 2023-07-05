@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.zfeny.top/2023/07/03/2023_start/</loc>
+    <loc>http://www.zfeny.top/2023/07/05/animate/2307_1_Masamune-kunnoRevengeR/</loc>
     
     <lastmod>2023-07-05</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>http://www.zfeny.top/2023/07/04/hello-world/</loc>
+    
+    <lastmod>2023-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.zfeny.top/2023/07/03/2023_start/</loc>
     
     <lastmod>2023-07-05</lastmod>
     
