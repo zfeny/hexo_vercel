@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.zfeny.top/gallery/ai.html</loc>
+    <loc>http://www.zfeny.top/gallery/index.html</loc>
     
     <lastmod>2023-07-06</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://www.zfeny.top/gallery/index.html</loc>
+    <loc>http://www.zfeny.top/gallery/ai.html</loc>
     
     <lastmod>2023-07-06</lastmod>
     
@@ -181,6 +181,13 @@
   </url>
   
   <url>
+    <loc>http://www.zfeny.top/tags/%E6%98%9F%E6%9C%9F%E4%BA%8C/</loc>
+    <lastmod>2023-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.zfeny.top/tags/%E6%98%9F%E6%9C%9F%E4%B8%89/</loc>
     <lastmod>2023-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -189,13 +196,6 @@
   
   <url>
     <loc>http://www.zfeny.top/tags/%E6%90%9E%E7%AC%91/</loc>
-    <lastmod>2023-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.zfeny.top/tags/%E6%98%9F%E6%9C%9F%E4%BA%8C/</loc>
     <lastmod>2023-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
