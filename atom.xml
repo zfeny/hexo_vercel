@@ -6,7 +6,7 @@
   <link href="http://www.zfeny.top/atom.xml" rel="self"/>
   
   <link href="http://www.zfeny.top/"/>
-  <updated>2023-08-22T12:05:26.318Z</updated>
+  <updated>2023-08-23T09:07:32.419Z</updated>
   <id>http://www.zfeny.top/</id>
   
   <author>
@@ -17,9 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Dynamic Prompts | 定制抽卡，一键丰富提示词细节</title>
+    <link href="http://www.zfeny.top/ai/2308_22_dynamicprompts/"/>
+    <id>http://www.zfeny.top/ai/2308_22_dynamicprompts/</id>
+    <published>2023-08-23T09:06:34.000Z</published>
+    <updated>2023-08-23T09:07:32.419Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="概括"><a href="#概括" class="headerlink" title="概括"></a>概括</h2><p>一款使用通配符、定制化、随机抽卡的插件。<br>安装很简单，直接下载插件本体就行。<br>仓库地址：<a href="https://github.com/adieyal/sd-dynamic-prompts">adieyal&#x2F;sd-dynamic-prompts: A custom script for AUTOMATIC1111&#x2F;stable-diffusion-webui to implement a tiny template language for random prompt generation (github.com)</a></p><h2 id="使用记录"><a href="#使用记录" class="headerlink" title="使用记录"></a>使用记录</h2><h3 id="基础调用方式"><a href="#基础调用方式" class="headerlink" title="基础调用方式"></a>基础调用方式</h3><p>安装插件后，它长这个样子：<br><img src="https://alist.zfeny.top/d/site/pics/post/ai/image_1692429170888_0.png" alt="image.png"><br>平常使用时，默认开启即可，然后在提示词中输入<code>__触发词__</code>即可成功调用。<br>触发词为通配符文件名。<br>基础使用非常简单，接下来研究研究更深入的参数，以及如何写通配符制作自己的wildcards。</p><h3 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h3><p>前提是开启插件。<br>分为四大类，variant，wildcard，variable，还有parameterized templates。<br>翻译过来分别为变体，通配词，变量，参数化模板。</p><h4 id="Variant-变体"><a href="#Variant-变体" class="headerlink" title="Variant 变体"></a>Variant 变体</h4><p>形如<code>&#123; prompt A | prompt B &#125;</code>的东西。<br>可进行嵌套，比如&#96;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;概括&quot;&gt;&lt;a href=&quot;#概括&quot; class=&quot;headerlink&quot; title=&quot;概括&quot;&gt;&lt;/a&gt;概括&lt;/h2&gt;&lt;p&gt;一款使用通配符、定制化、随机抽卡的插件。&lt;br&gt;安装很简单，直接下载插件本体就行。&lt;br&gt;仓库地址：&lt;a href=&quot;https://git</summary>
+      
+    
+    
+    
+    <category term="炼丹" scheme="http://www.zfeny.top/categories/%E7%82%BC%E4%B8%B9/"/>
+    
+    
+    <category term="Stable Diffusion" scheme="http://www.zfeny.top/tags/Stable-Diffusion/"/>
+    
+    <category term="webui" scheme="http://www.zfeny.top/tags/webui/"/>
+    
+    <category term="插件" scheme="http://www.zfeny.top/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="咒语" scheme="http://www.zfeny.top/tags/%E5%92%92%E8%AF%AD/"/>
+    
+    <category term="提示词" scheme="http://www.zfeny.top/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"/>
+    
+    <category term="prompts" scheme="http://www.zfeny.top/tags/prompts/"/>
+    
+    <category term="Dynamic Prompts" scheme="http://www.zfeny.top/tags/Dynamic-Prompts/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ChatGPT + SD | 利用ChatGPT整合思路，快速撰写提示词</title>
-    <link href="http://www.zfeny.top/2023/08/21/ai/2308_21_sd-chatgpt/"/>
-    <id>http://www.zfeny.top/2023/08/21/ai/2308_21_sd-chatgpt/</id>
+    <link href="http://www.zfeny.top/ai/2308_21_sd-chatgpt/"/>
+    <id>http://www.zfeny.top/ai/2308_21_sd-chatgpt/</id>
     <published>2023-08-21T08:17:08.000Z</published>
     <updated>2023-08-22T12:05:26.318Z</updated>
     
@@ -40,20 +76,20 @@
     
     <category term="webui" scheme="http://www.zfeny.top/tags/webui/"/>
     
-    <category term="ChatGPT" scheme="http://www.zfeny.top/tags/ChatGPT/"/>
-    
-    <category term="Prompts" scheme="http://www.zfeny.top/tags/Prompts/"/>
+    <category term="咒语" scheme="http://www.zfeny.top/tags/%E5%92%92%E8%AF%AD/"/>
     
     <category term="提示词" scheme="http://www.zfeny.top/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"/>
     
-    <category term="咒语" scheme="http://www.zfeny.top/tags/%E5%92%92%E8%AF%AD/"/>
+    <category term="ChatGPT" scheme="http://www.zfeny.top/tags/ChatGPT/"/>
+    
+    <category term="Prompts" scheme="http://www.zfeny.top/tags/Prompts/"/>
     
   </entry>
   
   <entry>
     <title>Segment Anything | 语义分隔在Stable Difussion中应用测试</title>
-    <link href="http://www.zfeny.top/2023/08/18/ai/2308_18_sam/"/>
-    <id>http://www.zfeny.top/2023/08/18/ai/2308_18_sam/</id>
+    <link href="http://www.zfeny.top/ai/2308_18_sam/"/>
+    <id>http://www.zfeny.top/ai/2308_18_sam/</id>
     <published>2023-08-18T13:24:51.000Z</published>
     <updated>2023-08-22T12:07:02.246Z</updated>
     
@@ -74,18 +110,18 @@
     
     <category term="webui" scheme="http://www.zfeny.top/tags/webui/"/>
     
+    <category term="插件" scheme="http://www.zfeny.top/tags/%E6%8F%92%E4%BB%B6/"/>
+    
     <category term="SAM" scheme="http://www.zfeny.top/tags/SAM/"/>
     
     <category term="语义分割" scheme="http://www.zfeny.top/tags/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2/"/>
-    
-    <category term="插件" scheme="http://www.zfeny.top/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>ControlNet实操|艺术字效果控制</title>
-    <link href="http://www.zfeny.top/2023/07/30/ai/2307_30_controlnetv1/"/>
-    <id>http://www.zfeny.top/2023/07/30/ai/2307_30_controlnetv1/</id>
+    <link href="http://www.zfeny.top/ai/2307_30_controlnetv1/"/>
+    <id>http://www.zfeny.top/ai/2307_30_controlnetv1/</id>
     <published>2023-07-30T11:08:08.000Z</published>
     <updated>2023-08-22T12:06:19.175Z</updated>
     
@@ -107,18 +143,18 @@
     
     <category term="webui" scheme="http://www.zfeny.top/tags/webui/"/>
     
-    <category term="插件" scheme="http://www.zfeny.top/tags/%E6%8F%92%E4%BB%B6/"/>
-    
     <category term="ControlNet" scheme="http://www.zfeny.top/tags/ControlNet/"/>
     
     <category term="艺术字" scheme="http://www.zfeny.top/tags/%E8%89%BA%E6%9C%AF%E5%AD%97/"/>
+    
+    <category term="插件" scheme="http://www.zfeny.top/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>VAE是什么？有什么用？</title>
-    <link href="http://www.zfeny.top/2023/07/26/ai/2307_26_sd-vae/"/>
-    <id>http://www.zfeny.top/2023/07/26/ai/2307_26_sd-vae/</id>
+    <link href="http://www.zfeny.top/ai/2307_26_sd-vae/"/>
+    <id>http://www.zfeny.top/ai/2307_26_sd-vae/</id>
     <published>2023-07-26T08:21:21.000Z</published>
     <updated>2023-08-21T07:59:56.460Z</updated>
     
@@ -144,45 +180,9 @@
   </entry>
   
   <entry>
-    <title>Dynamic Prompts | 定制抽卡，一键丰富提示词细节</title>
-    <link href="http://www.zfeny.top/2023/07/23/ai/2308_22_dynamicprompts/"/>
-    <id>http://www.zfeny.top/2023/07/23/ai/2308_22_dynamicprompts/</id>
-    <published>2023-07-23T08:21:21.000Z</published>
-    <updated>2023-08-22T12:06:00.363Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="概括"><a href="#概括" class="headerlink" title="概括"></a>概括</h2><p>一款使用通配符、定制化、随机抽卡的插件。<br>安装很简单，直接下载插件本体就行。<br>仓库地址：<a href="https://github.com/adieyal/sd-dynamic-prompts">adieyal&#x2F;sd-dynamic-prompts: A custom script for AUTOMATIC1111&#x2F;stable-diffusion-webui to implement a tiny template language for random prompt generation (github.com)</a></p><h2 id="使用记录"><a href="#使用记录" class="headerlink" title="使用记录"></a>使用记录</h2><h3 id="基础调用方式"><a href="#基础调用方式" class="headerlink" title="基础调用方式"></a>基础调用方式</h3><p>安装插件后，它长这个样子：<br><img src="https://alist.zfeny.top/d/site/pics/post/ai/image_1692429170888_0.png" alt="image.png"><br>平常使用时，默认开启即可，然后在提示词中输入<code>__触发词__</code>即可成功调用。<br>触发词为通配符文件名。<br>基础使用非常简单，接下来研究研究更深入的参数，以及如何写通配符制作自己的wildcards。</p><h3 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h3><p>前提是开启插件。<br>分为四大类，variant，wildcard，variable，还有parameterized templates。<br>翻译过来分别为变体，通配词，变量，参数化模板。</p><h4 id="Variant-变体"><a href="#Variant-变体" class="headerlink" title="Variant 变体"></a>Variant 变体</h4><p>形如<code>&#123; prompt A | prompt B &#125;</code>的东西。<br>可进行嵌套，比如&#96;</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;概括&quot;&gt;&lt;a href=&quot;#概括&quot; class=&quot;headerlink&quot; title=&quot;概括&quot;&gt;&lt;/a&gt;概括&lt;/h2&gt;&lt;p&gt;一款使用通配符、定制化、随机抽卡的插件。&lt;br&gt;安装很简单，直接下载插件本体就行。&lt;br&gt;仓库地址：&lt;a href=&quot;https://git</summary>
-      
-    
-    
-    
-    <category term="炼丹" scheme="http://www.zfeny.top/categories/%E7%82%BC%E4%B8%B9/"/>
-    
-    
-    <category term="Stable Diffusion" scheme="http://www.zfeny.top/tags/Stable-Diffusion/"/>
-    
-    <category term="webui" scheme="http://www.zfeny.top/tags/webui/"/>
-    
-    <category term="提示词" scheme="http://www.zfeny.top/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"/>
-    
-    <category term="咒语" scheme="http://www.zfeny.top/tags/%E5%92%92%E8%AF%AD/"/>
-    
-    <category term="插件" scheme="http://www.zfeny.top/tags/%E6%8F%92%E4%BB%B6/"/>
-    
-    <category term="prompts" scheme="http://www.zfeny.top/tags/prompts/"/>
-    
-    <category term="Dynamic Prompts" scheme="http://www.zfeny.top/tags/Dynamic-Prompts/"/>
-    
-  </entry>
-  
-  <entry>
     <title>转生成自动贩卖机的我今天也在迷宫徘徊 / Jidou Hanbaiki ni Umarekawatta 总12集</title>
-    <link href="http://www.zfeny.top/2023/07/06/animate/2307_3_JidouHanbaikiniUmarekawatta/"/>
-    <id>http://www.zfeny.top/2023/07/06/animate/2307_3_JidouHanbaikiniUmarekawatta/</id>
+    <link href="http://www.zfeny.top/animate/2307_3_JidouHanbaikiniUmarekawatta/"/>
+    <id>http://www.zfeny.top/animate/2307_3_JidouHanbaikiniUmarekawatta/</id>
     <published>2023-07-06T07:00:30.000Z</published>
     <updated>2023-07-06T07:45:21.000Z</updated>
     
@@ -208,8 +208,8 @@
   
   <entry>
     <title>我喜欢的女孩忘记戴眼镜了 / Suki na Ko ga Megane wo Wasureta 总12集</title>
-    <link href="http://www.zfeny.top/2023/07/05/animate/2307_2_SukinaKogaMeganewoWasureta/"/>
-    <id>http://www.zfeny.top/2023/07/05/animate/2307_2_SukinaKogaMeganewoWasureta/</id>
+    <link href="http://www.zfeny.top/animate/2307_2_SukinaKogaMeganewoWasureta/"/>
+    <id>http://www.zfeny.top/animate/2307_2_SukinaKogaMeganewoWasureta/</id>
     <published>2023-07-05T10:53:33.000Z</published>
     <updated>2023-07-11T03:37:18.000Z</updated>
     
@@ -235,8 +235,8 @@
   
   <entry>
     <title>政宗君的复仇 R / Masamune-kun no Revenge R 总12集</title>
-    <link href="http://www.zfeny.top/2023/07/05/animate/2307_1_Masamune-kunnoRevengeR/"/>
-    <id>http://www.zfeny.top/2023/07/05/animate/2307_1_Masamune-kunnoRevengeR/</id>
+    <link href="http://www.zfeny.top/animate/2307_1_Masamune-kunnoRevengeR/"/>
+    <id>http://www.zfeny.top/animate/2307_1_Masamune-kunnoRevengeR/</id>
     <published>2023-07-05T10:18:45.000Z</published>
     <updated>2023-07-05T11:08:54.000Z</updated>
     
@@ -262,8 +262,8 @@
   
   <entry>
     <title>满怀美梦的少年是现实主义者 / Yumemiru Danshi wa Genjitsushugisha 总12集</title>
-    <link href="http://www.zfeny.top/2023/07/04/animate/2307_1_YumemiruDanshi/"/>
-    <id>http://www.zfeny.top/2023/07/04/animate/2307_1_YumemiruDanshi/</id>
+    <link href="http://www.zfeny.top/animate/2307_1_YumemiruDanshi/"/>
+    <id>http://www.zfeny.top/animate/2307_1_YumemiruDanshi/</id>
     <published>2023-07-04T13:06:45.000Z</published>
     <updated>2023-07-05T11:09:01.000Z</updated>
     
@@ -289,8 +289,8 @@
   
   <entry>
     <title>LV1魔王与独居废勇者 / Lv1 Maou to One Room Yuusha 总12集</title>
-    <link href="http://www.zfeny.top/2023/07/04/animate/2307_1_Lv1MaoutoOneRoomYuusha/"/>
-    <id>http://www.zfeny.top/2023/07/04/animate/2307_1_Lv1MaoutoOneRoomYuusha/</id>
+    <link href="http://www.zfeny.top/animate/2307_1_Lv1MaoutoOneRoomYuusha/"/>
+    <id>http://www.zfeny.top/animate/2307_1_Lv1MaoutoOneRoomYuusha/</id>
     <published>2023-07-04T12:35:29.000Z</published>
     <updated>2023-07-05T11:09:27.000Z</updated>
     
@@ -314,8 +314,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.zfeny.top/2023/07/04/hello-world/"/>
-    <id>http://www.zfeny.top/2023/07/04/hello-world/</id>
+    <link href="http://www.zfeny.top/hello-world/"/>
+    <id>http://www.zfeny.top/hello-world/</id>
     <published>2023-07-04T06:11:45.914Z</published>
     <updated>2023-07-05T10:46:16.000Z</updated>
     
@@ -335,8 +335,8 @@
   
   <entry>
     <title>2023 扬帆起航？</title>
-    <link href="http://www.zfeny.top/2023/07/03/2023_start/"/>
-    <id>http://www.zfeny.top/2023/07/03/2023_start/</id>
+    <link href="http://www.zfeny.top/2023_start/"/>
+    <id>http://www.zfeny.top/2023_start/</id>
     <published>2023-07-03T04:05:36.000Z</published>
     <updated>2023-07-05T03:26:32.000Z</updated>
     
